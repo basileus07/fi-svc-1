@@ -1,0 +1,50 @@
+.App {
+  text-align: center;
+}
+
+
+/* styles for Transaction input component */
+.transaction-form-container {
+  max-width: 400px;
+  margin: 10px auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  background-color: #f9f9f9;
+}
+
+.form-heading {
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.transaction-form .MuiFormControl-root {
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.transaction-form .MuiButton-root {
+  width: 100%;
+}
+
+.submit-button {
+  margin-top: 16px;
+}
+
+.select-invisible {
+  position: absolute;
+  opacity: 0;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+}
+
+.transaction-form-container .MuiFormControl-root {
+  width: calc(100% - 16px);
+  /* Adjust for the space taken by the invisible Select */
+}
+
+.MuiSelect-select.MuiSelect-select {
+  text-align: left;
+}
